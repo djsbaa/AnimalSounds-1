@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <ImageView style="@style/imageStyle"
+                android:id="@+id/img0"/>
+
+            <ImageView style="@style/imageStyle"
+                android:id="@+id/img1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <ImageView style="@style/imageStyle"
+                android:id="@+id/img2"/>
+
+            <ImageView style="@style/imageStyle"
+                android:id="@+id/img3"/>
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/imgBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/roundedbutton"
+        android:src="@drawable/note64px"/>
+
+</RelativeLayout>
